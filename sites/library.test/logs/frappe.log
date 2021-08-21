@@ -1,0 +1,51 @@
+2021-08-18 08:44:01,510 ERROR frappe New Exception collected with id: 2021-08-18 08:44:01.363279-127.0.0.1-e51
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library member","name":"new-library-member-1","__islocal":1,"__unsaved":1,"owner":"Administrator","first_name":"Richard","last_name":"gobling","email_address":"gobling@gmail.com","phone_number":"9087654321"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-08-18 08:46:14,644 ERROR frappe New Exception collected with id: 2021-08-18 08:46:14.507037-127.0.0.1-d5d
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library member","name":"new-library-member-1","__islocal":1,"__unsaved":1,"owner":"Administrator","first_name":"Richard","last_name":"gobling","email_address":"gobling@gmail.com","phone_number":"9087654321"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-08-18 09:53:45,692 ERROR frappe New Exception collected with id: 2021-08-18 09:53:45.576001-127.0.0.1-fff
+Site: library.test
+Form Dict: {'doc': '{"name":"LMS00002","owner":"Administrator","creation":"2021-08-18 09:53:37.440023","modified":"2021-08-18 09:53:37.440023","modified_by":"Administrator","parent":null,"parentfield":null,"parenttype":null,"idx":0,"docstatus":0,"library_member":"LM00001","full_name":"Richard gobling","from_date":null,"to_date":null,"paid":0,"amended_from":null,"doctype":"Library Membership","__run_link_triggers":1}', 'cmd': 'frappe.client.submit'}
+2021-08-18 10:33:30,225 ERROR frappe New Exception collected with id: 2021-08-18 10:33:30.059557-127.0.0.1-7a5
+Site: library.test
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '2021-08-18 08:39:52.436429', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:34:13,310 ERROR frappe New Exception collected with id: 2021-08-18 10:34:13.063067-127.0.0.1-c27
+Site: library.test
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '2021-08-18 08:39:52.436429', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:34:32,935 ERROR frappe New Exception collected with id: 2021-08-18 10:34:32.839387-127.0.0.1-de3
+Site: library.test
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '2021-08-18 08:39:52.436429', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:34:51,609 ERROR frappe New Exception collected with id: 2021-08-18 10:34:51.452357-127.0.0.1-dc9
+Site: library.test
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '2021-08-18 08:39:52.436429', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:39:23,514 ERROR frappe New Exception collected with id: 2021-08-18 10:39:23.280883-127.0.0.1-bd7
+Site: library.test
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '2021-08-18 08:39:52.436429', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:39:44,189 ERROR frappe New Exception collected with id: 2021-08-18 10:39:44.032380-127.0.0.1-110
+Site: library.test
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '2021-08-18 08:39:52.436429', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:39:58,356 ERROR frappe New Exception collected with id: 2021-08-18 10:39:58.125568-127.0.0.1-adc
+Site: library.test
+Form Dict: {'doctype': 'Library member', 'with_parent': '1', 'cached_timestamp': '2021-08-18 08:39:52.436429', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:42:58,518 ERROR frappe New Exception collected with id: 2021-08-18 10:42:58.356801-127.0.0.1-4c7
+Site: library.test
+Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:46:02,721 ERROR frappe New Exception collected with id: 2021-08-18 10:46:02.677732-127.0.0.1-09e
+Site: library.test
+Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:47:12,678 ERROR frappe New Exception collected with id: 2021-08-18 10:47:12.633062-127.0.0.1-fe6
+Site: library.test
+Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:47:33,193 ERROR frappe New Exception collected with id: 2021-08-18 10:47:33.130177-127.0.0.1-465
+Site: library.test
+Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:54:51,982 ERROR frappe New Exception collected with id: 2021-08-18 10:54:51.938272-127.0.0.1-fcc
+Site: library.test
+Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:56:23,618 ERROR frappe New Exception collected with id: 2021-08-18 10:56:23.570672-127.0.0.1-0dc
+Site: library.test
+Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2021-08-18 10:59:36,747 ERROR frappe New Exception collected with id: 2021-08-18 10:59:36.544665-127.0.0.1-982
+Site: library.test
+Form Dict: {'doctype': 'Library Transaction', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}

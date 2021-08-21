@@ -1,0 +1,48 @@
+2021-08-17 21:13:00,006 ERROR frappe New Exception collected with id: 2021-08-17 21:12:59.860918-127.0.0.1-18b
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:14:10,212 ERROR frappe New Exception collected with id: 2021-08-17 21:14:10.203471-127.0.0.1-b60
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:14:33,098 ERROR frappe New Exception collected with id: 2021-08-17 21:14:33.088546-127.0.0.1-3fc
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:15:24,616 ERROR frappe New Exception collected with id: 2021-08-17 21:15:24.588695-127.0.0.1-b33
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:19:34,615 ERROR frappe New Exception collected with id: 2021-08-17 21:19:34.476239-127.0.0.1-a8b
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:21:50,292 ERROR frappe New Exception collected with id: 2021-08-17 21:21:50.279452-127.0.0.1-d21
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:21:54,906 ERROR frappe New Exception collected with id: 2021-08-17 21:21:54.896581-127.0.0.1-29d
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:24:22,406 ERROR frappe New Exception collected with id: 2021-08-17 21:24:22.396425-127.0.0.1-5ed
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:24:26,486 ERROR frappe New Exception collected with id: 2021-08-17 21:24:26.476298-127.0.0.1-68e
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:26:15,122 ERROR frappe New Exception collected with id: 2021-08-17 21:26:15.108529-127.0.0.1-574
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:34:26,741 ERROR frappe New Exception collected with id: 2021-08-17 21:34:26.732210-127.0.0.1-16e
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 21:59:47,187 ERROR frappe New Exception collected with id: 2021-08-17 21:59:47.049339-127.0.0.1-d5e
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 22:01:20,519 ERROR frappe New Exception collected with id: 2021-08-17 22:01:20.509296-127.0.0.1-663
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 22:20:24,363 ERROR frappe New Exception collected with id: 2021-08-17 22:20:24.209157-127.0.0.1-2ac
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 22:21:37,520 ERROR frappe New Exception collected with id: 2021-08-17 22:21:37.510704-127.0.0.1-343
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}
+2021-08-17 22:47:13,866 ERROR frappe New Exception collected with id: 2021-08-17 22:47:13.719868-127.0.0.1-fa1
+Site: foo.bar
+Form Dict: {'cmd': 'frappe.core.doctype.user.user.sign_up', 'email': 'srijenanithish@gmai.com', 'redirect_to': '', 'full_name': 'Srijena'}

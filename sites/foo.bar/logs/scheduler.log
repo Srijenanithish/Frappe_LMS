@@ -1,0 +1,126 @@
+2021-08-17 18:52:18,286 DEBUG scheduler Access denied for site foo.bar
+2021-08-17 18:53:18,338 DEBUG scheduler Access denied for site foo.bar
+2021-08-17 18:54:18,390 DEBUG scheduler Access denied for site foo.bar
+2021-08-17 18:55:18,474 ERROR scheduler Exception in Enqueue Events for Site foo.bar
+Traceback (most recent call last):
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/database/database.py", line 562, in get_single_value
+    df = frappe.get_meta(doctype).get_field(fieldname)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 881, in get_meta
+    return frappe.model.meta.get_meta(doctype, cached=cached)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 37, in get_meta
+    meta = Meta(doctype)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 83, in __init__
+    super(Meta, self).__init__("DocType", doctype)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/document.py", line 113, in __init__
+    self.load_from_db()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 88, in load_from_db
+    super(Meta, self).load_from_db()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/document.py", line 156, in load_from_db
+    frappe.throw(_("{0} {1} not found").format(_(self.doctype), self.name), frappe.DoesNotExistError)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.DoesNotExistError: DocType System Settings not found
+
+2021-08-17 19:29:26,046 DEBUG scheduler Access denied for site foo.bar
+2021-08-17 19:30:26,297 ERROR scheduler Exception in Enqueue Events for Site foo.bar
+Traceback (most recent call last):
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/database/database.py", line 562, in get_single_value
+    df = frappe.get_meta(doctype).get_field(fieldname)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 881, in get_meta
+    return frappe.model.meta.get_meta(doctype, cached=cached)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 37, in get_meta
+    meta = Meta(doctype)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 83, in __init__
+    super(Meta, self).__init__("DocType", doctype)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/document.py", line 113, in __init__
+    self.load_from_db()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 88, in load_from_db
+    super(Meta, self).load_from_db()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/document.py", line 156, in load_from_db
+    frappe.throw(_("{0} {1} not found").format(_(self.doctype), self.name), frappe.DoesNotExistError)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.DoesNotExistError: DocType System Settings not found
+
+2021-08-17 19:31:26,365 ERROR scheduler Exception in Enqueue Events for Site foo.bar
+Traceback (most recent call last):
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/database/database.py", line 562, in get_single_value
+    df = frappe.get_meta(doctype).get_field(fieldname)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 881, in get_meta
+    return frappe.model.meta.get_meta(doctype, cached=cached)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 37, in get_meta
+    meta = Meta(doctype)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 83, in __init__
+    super(Meta, self).__init__("DocType", doctype)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/document.py", line 113, in __init__
+    self.load_from_db()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 88, in load_from_db
+    super(Meta, self).load_from_db()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/document.py", line 156, in load_from_db
+    frappe.throw(_("{0} {1} not found").format(_(self.doctype), self.name), frappe.DoesNotExistError)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.DoesNotExistError: DocType System Settings not found
+
+2021-08-17 20:30:35,027 DEBUG scheduler Access denied for site foo.bar
+2021-08-17 20:31:35,091 DEBUG scheduler Access denied for site foo.bar
+2021-08-17 20:32:35,519 ERROR scheduler Exception in Enqueue Events for Site foo.bar
+Traceback (most recent call last):
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/database/database.py", line 562, in get_single_value
+    df = frappe.get_meta(doctype).get_field(fieldname)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 881, in get_meta
+    return frappe.model.meta.get_meta(doctype, cached=cached)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 37, in get_meta
+    meta = Meta(doctype)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 83, in __init__
+    super(Meta, self).__init__("DocType", doctype)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/document.py", line 113, in __init__
+    self.load_from_db()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/meta.py", line 88, in load_from_db
+    super(Meta, self).load_from_db()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/model/document.py", line 156, in load_from_db
+    frappe.throw(_("{0} {1} not found").format(_(self.doctype), self.name), frappe.DoesNotExistError)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/srijena/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.DoesNotExistError: DocType System Settings not found
+

@@ -1,0 +1,4 @@
+Collecting cython
+  Downloading https://files.pythonhosted.org/packages/60/0a/2f29583d082f6b1b7349b8f98e73ad15ef927bf3f003e71e9e7db62017bb/Cython-0.29.24-cp27-cp27mu-manylinux1_x86_64.whl (1.9MB)
+Installing collected packages: cython
+Successfully installed cython-0.29.24
